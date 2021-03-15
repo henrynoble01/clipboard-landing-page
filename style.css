@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: url(/images/bg-header-desktop.png);
+  background-attachment: fixed, fixed;
+  background-repeat: no-repeat, no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.first__section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 60px;
+  justify-content: center;
+}
+
+.copy {
+  margin-top: 20px;
+}
+
+.first {
+  margin-top: 20px;
+}
+
+.btn__grp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.btn__primary {
+  background: #25bba2;
+  border: none;
+  color: white;
+  padding: 10px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 2px 8px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.btn__secondary {
+  background: #6273ff;
+  border: none;
+  color: white;
+  padding: 10px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 2px 8px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.second__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 6em;
+}
+
+.second {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 530px;
+}
+
+.third__section {
+  display: flex;
+  justify-content: center;
+  margin-top: 6em;
+}
+
+.img__side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 30px;
+}
+
+.side__light {
+  padding-right: 1rem;
+  max-width: 300px;
+}
+
+.img__desktop {
+  height: 400px;
+}
+
+.side {
+  grid-area: text;
+}
+
+.fourth__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 6em;
+}
+
+.fourth-access {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 530px;
+}
+
+.fifth__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 6em;
+}
+
+.sixth__section {
+  margin-top: 6em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.sth__grp {
+  justify-content: space-evenly;
+}
+
+.under__array {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  max-width: 20rem;
+}
+
+.seventh__section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 6em auto 0 auto;
+  width: 105em;
+}
+
+.svth__img {
+  align-items: center;
+}
+
+.eight__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 6em;
+}
+
+.eig__tail {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 670px;
+}
+
+footer {
+  margin-top: 6em;
+}
+
+.ft__content {
+  margin: auto;
+  width: 90em;
+  height: 7em;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  background: #f5f6f8;
+}
+
+.over__cover {
+  margin-top: 10em;
+  display: flex;
+  width: 80em;
+  height: 5em;
+  margin: auto;
+}
+
+.ft__logo {
+  margin-right: auto;
+  width: 4em;
+  height: 4em;
+  margin-top: 0.3em;
+}
+
+.ft__navbar {
+  list-style: none;
+  display: flex;
+  flex-flow: column wrap;
+  height: 3em;
+  width: 45em;
+  padding: 1em 1em;
+  margin-right: 9em;
+  margin-top: 0.3rem;
+  justify-content: space-between;
+}
+
+.ft__li > a {
+  font-weight: 600;
+  color: inherit;
+  text-decoration: none;
+}
+
+.ft__logo-aws {
+  margin-left: auto;
+  list-style: none;
+  display: flex;
+  padding: 0.5em;
+}
+
+.ft--icons {
+  padding: 0.5em;
+  margin-top: 0.3em;
+}
+
+.ft--icons > a {
+  color: inherit;
+  text-decoration: none;
+}
